@@ -11,6 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>rabbitmq</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>rabbitmq</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -60,6 +61,11 @@
 			<version>12.1.0.2</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-spring-boot-starter-jaxws</artifactId>
+			<version>3.3.7</version>
+		</dependency>
 		<!-- hibernate -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
