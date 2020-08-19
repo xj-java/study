@@ -16,7 +16,7 @@ import javax.jws.WebService;
 @WebService(targetNamespace = "http://service.ws.demo.example.com",endpointInterface = "com.example.demo.ws.service.TestWsService")
 public class TestWsServiceImpl implements TestWsService {
     @Override
-    public String test() {
-        return "good";
+    public String test(String name,String age) {
+        return name+"-"+age;
     }
 }

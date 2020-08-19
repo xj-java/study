@@ -11,9 +11,9 @@ import javax.jws.WebService;
  * @Date: 2020/08/19/16:34
  * @Description:
  */
-@WebService
+@WebService(targetNamespace = "http://service.ws.demo.example.com")
 public interface TestWsService {
     @WebMethod
     @WebResult
-    String test();
+    String test(String name,String age);
 }
