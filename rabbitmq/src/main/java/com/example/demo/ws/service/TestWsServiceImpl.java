@@ -13,7 +13,7 @@ import javax.jws.WebService;
  * @Description:
  */
 @Service
-@WebService(targetNamespace = "http://service.ws.demo.example.com",endpointInterface = "com.example.demo.ws.service.TestWsService")
+@WebService(targetNamespace = "http://abcd.csg.cn",endpointInterface = "com.example.demo.ws.service.TestWsService")
 public class TestWsServiceImpl implements TestWsService {
     @Override
     public String test(String name,String age) {
